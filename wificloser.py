@@ -12,3 +12,7 @@ def extract_wifi_passwords():
 
 		password = [i.split(':')[1].strip() for i in profile_info if 'key content' in i]
 		print(password)
+
+
+		
+extract_wifi_passwords()
